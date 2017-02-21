@@ -1,0 +1,77 @@
+.ui-page-theme-a{
+	background-color: #fff;
+	text-align: center;
+}
+.ui-bar-a{
+    background-color: #FD888E;
+    color: #fff;
+}
+.img{
+	text-align: center;
+	background-color: #F4F4F4;
+	margin: 5px 0;
+}
+.img img{
+	margin: 20px auto;
+	width: 80%;
+}
+/*.banner{
+	margin: 5px 0;
+}
+.banner img{
+	width: 100%;
+}*/
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin: 5px 0;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-slide img{
+	width: 100%;
+}
+.ui-grid-b hr{
+	margin: 0 10px;
+}
+.ui-grid-b img{
+	width: 90%;
+}
+.today{
+	margin-bottom: 5px;
+}
+.two{
+	margin: 10px 0;
+}
+.ui-grid-b span{
+	color: red;
+}

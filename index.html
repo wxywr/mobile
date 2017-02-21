@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>相宜本草首页</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script src="http://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+	<div data-role="page" data-theme="a">
+		<div data-role="header" data-theme="a">
+			<a href="#" class="ui-btn ui-corner-all ui-icon-back ui-btn-icon-notext ui-nodisc-icon ui-alt-icon"></a>
+			<h1>相宜本草用品店</h1>
+			<button class="ui-btn ui-corner-all ui-icon-bullets ui-btn-icon-notext ui-nodisc-icon ui-alt-icon"></button>
+		</div>
+		<div data-role="main" class="content ui-body-a">
+			<div class="img">
+				<img src="images/logo.png" alt="">
+			</div>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#">关于我们</a></li>
+					<li><a href="#">公司文化</a></li>
+					<li><a href="#">招贤纳士</a></li>
+					<li><a href="#">新闻动态</a></li>
+					<li><a href="#">成功案例</a></li>
+				</ul>
+			</div>
+			<!-- <div class="banner">
+				<img src="images/banner.gif" alt="">
+			</div> -->
+			<div class="swiper-container">
+        		<div class="swiper-wrapper">
+		            <div class="swiper-slide"><img src="images/banner.gif" alt=""></div>
+		            <div class="swiper-slide"><img src="images/banner.gif" alt=""></div>
+	        	</div>
+        	<!-- Add Pagination -->
+	        	<div class="swiper-pagination"></div>
+	    	</div>
+
+
+			<ul data-role="listview" class="today">
+      			<li><a href="#">今日特惠</a></li>
+      		</ul>
+
+			<div class="ui-grid-b">
+		        <div class="ui-block-a">
+		           	<a href="#" class=""><img src="images/product.gif" alt=""></a><br><h4>四倍蚕丝凝白柔肤</h4>
+		           	<h6>RMB <span>890</span></h6><hr>
+		       	</div>
+		      	<div class="ui-block-b">
+		        	<a href="#" class=""><img src="images/product.gif" alt=""></a><br>
+		        	<h4>四倍蚕丝凝白柔肤</h4>
+		        	<h6>RMB <span>890</span></h6><hr>
+		      	</div>
+		      	<div class="ui-block-c">
+		        	<a href="#" class=""><img src="images/product.gif" alt=""></a><br>
+		        	<h4>四倍蚕丝凝白柔肤</h4>
+		        	<h6>RMB <span>890</span></h6><hr>
+		      	</div>
+			</div>
+
+			<div class="ui-grid-b two">
+		        <div class="ui-block-a">
+		           	<a href="#" class=""><img src="images/product.gif" alt=""></a><br><h4>四倍蚕丝凝白柔肤</h4>
+		           	<h6>RMB <span>890</span></h6><hr>
+		       	</div>
+		      	<div class="ui-block-b">
+		        	<a href="#" class=""><img src="images/product.gif" alt=""></a><br>
+		        	<h4>四倍蚕丝凝白柔肤</h4>
+		        	<h6>RMB <span>890</span></h6><hr>
+		      	</div>
+		      	<div class="ui-block-c">
+		        	<a href="#" class=""><img src="images/product.gif" alt=""></a><br>
+		        	<h4>四倍蚕丝凝白柔肤</h4>
+		        	<h6>RMB <span>890</span></h6><hr>
+		      	</div>
+			</div>
+
+			<div class="ui-grid-b">
+      			<div class="ui-block-a">
+        			<a href="#" class="ui-btn">补水保养</a>
+      			</div>
+      			<div class="ui-block-b">
+        			<a href="#" class="ui-btn">身体洗护</a>
+      			</div>
+      			<div class="ui-block-c">
+        			<a href="#" class="ui-btn">彩妆香水</a>
+      			</div>
+    		</div>
+
+    		<div class="ui-grid-b">
+      			<div class="ui-block-a">
+        			<a href="#" class="ui-btn">补水保养</a>
+      			</div>
+      			<div class="ui-block-b">
+        			<a href="#" class="ui-btn">身体洗护</a>
+      			</div>
+      			<div class="ui-block-c">
+        			<a href="#" class="ui-btn">彩妆香水</a>
+      			</div>
+    		</div>
+		</div>
+		<div data-role="footer" data-theme="a">
+    		<p>联系电话：0311-1234567</p>
+  		</div> 
+	</div>
+</body>
+<script src="js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        autoplay : 1000,
+		speed:100
+    });
+</script>
+</html>
